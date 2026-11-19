@@ -1,0 +1,45 @@
+# Dependensi & build artifacts
+node_modules/
+dist/
+.vite/
+*.local
+
+# File besar QGIS & analisis (tidak perlu di repo web statis)
+*.qgz
+*.gpkg
+*.tif
+*.tif.aux.xml
+*.qmd
+symbology-style.db
+
+# File analisis yang tidak untuk web
+*.csv
+*.txt
+sig2020
+sig2025
+Reference*/
+Agreement*/
+Training*/
+train*.tif
+B02*
+B03*
+B04*
+B08*
+SCL*
+Sentinel*
+
+# File sementara & OS
+Thumbs.db
+.DS_Store
+*.tmp
+*.bak
+*~
+.vscode/settings.json
+
+# Folder kerja sementara
+webgis_extract/
+scratch/
+
+# Log
+*.log
+npm-debug.log*
